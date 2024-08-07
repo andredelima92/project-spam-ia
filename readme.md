@@ -11,7 +11,8 @@ The Spam Message Analyzer project is designed to classify messages as spam or ha
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Training the Model](#training-the-model)
+    - [Training the Model (optional):](#training-the-model-optional)
+    - [Run the Model:](#run-the-model)
 
 ## Installation
 
@@ -39,13 +40,15 @@ To set up the project, follow these steps:
 
 ## Usage
 
-### Training the Model
+### Training the Model (optional):
 
 To train the model and save it, run:
 
 ```sh
 python train_model.py
 ```
+
+### Run the Model:
 
 ```sh
 python run_model.py
