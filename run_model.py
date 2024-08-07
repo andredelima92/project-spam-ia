@@ -1,6 +1,6 @@
 import joblib
 import os
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from data_preprocessing import load_and_preprocess_data
 from train_model import train_and_save_model
 
@@ -32,3 +32,5 @@ if __name__ == "__main__":
     print(f'Accuracy: {accuracy}')
     print('Confusion Matrix:')
     print(conf_matrix)
+    print(classification_report(y_test, predicts))
+

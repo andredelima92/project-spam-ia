@@ -1,7 +1,6 @@
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 from data_preprocessing import load_and_preprocess_data
-import os
 
 def train_and_save_model(data_path, model_path):
     x_train, x_test, y_train, y_test = load_and_preprocess_data(data_path)
